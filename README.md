@@ -76,7 +76,7 @@ var algo1 = Stubborn.exponentialBackoff(2)       // classic http://en.wikipedia.
 var algo2 = Stubborn.simpleExponentialBackoff(2) // same as the above only without the random element
 var algo3 = Stubborn.logarithmicProgression(2)   // logarithmic progression
 var algo4 = Stubborn.linear(1, 0)                // ax+b
-var algo5 = Stubborm.constant(1)                 // constant / fixed progression
+var algo5 = Stubborn.constant(1)                 // constant / fixed progression
 ```
 #### configure using names instead of functions
 ```js
